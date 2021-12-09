@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/python,linux
-# Edit at https://www.toptal.com/developers/gitignore?templates=python,linux
+# Created by https://www.toptal.com/developers/gitignore/api/python,visualstudiocode,linux
+# Edit at https://www.toptal.com/developers/gitignore?templates=python,visualstudiocode,linux
 
 ### Linux ###
 *~
@@ -157,4 +157,23 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-# End of https://www.toptal.com/developers/gitignore/api/python,linux
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# Support for Project snippet scope
+!.vscode/*.code-snippets
+
+# End of https://www.toptal.com/developers/gitignore/api/python,visualstudiocode,linux
